@@ -255,6 +255,8 @@ module.exports = nativeDescription: "繁體中文", englishDescription: "Chinese
     victory_new_item: "新的物品"
     victory_viking_code_school: "太厲害了, 您剛完成了非常困難的關卡! 如果您想成為一個軟件開發人員，您就應該去試一下Viking Code School。在這裡您可以把您的知識增長到另一個台階。只需要14個星期您就能成為一個專業的網頁開發人員。"
     victory_become_a_viking: "成為一個維京人。"
+#    victory_bloc: "Great work! Your skills are improving, and someone's taking notice. If you've considered becoming a software developer, this may be your lucky day. Bloc is an online bootcamp that pairs you 1-on-1 with an expert mentor who will help train you into a professional developer! By beating A Mayhem of Munchkins, you're now eligible for a $500 price reduction with the code: CCRULES"
+#    victory_bloc_cta: "Meet your mentor – learn about Bloc"
     guide_title: "指南"
     tome_minion_spells: "助手的咒語" # Only in old-style levels.
     tome_read_only_spells: "唯讀的咒語" # Only in old-style levels.
@@ -435,7 +437,24 @@ module.exports = nativeDescription: "繁體中文", englishDescription: "Chinese
     payment_methods_title: "可接受的付款方式"
     payment_methods_blurb1: "我們現有的付費方式有信用卡和支付寶"
     payment_methods_blurb2: "如果您想用其他付費方式,請聯繫我們"
+#    sale_already_subscribed: "You're already subscribed!"
+#    sale_blurb1: "Save 35%"
+#    sale_blurb2: "off regular subscription price of $120 for a whole year!" # {changed}
+#    sale_button: "Sale!"
+#    sale_button_title: "Save 35% when you purchase a 1 year subscription"
+#    sale_click_here: "Click Here"
+#    sale_ends: "Ends"
+#    sale_extended: "*Existing subscriptions will be extended by 1 year."
+#    sale_feature_here: "Here's what you'll get:"
+#    sale_feature2: "Access to 9 powerful <strong>new heroes</strong> with unique skills!"
+#    sale_feature4: "<strong>42,000 bonus gems</strong> awarded immediately!"
+#    sale_continue: "Ready to continue adventuring?"
+#    sale_limited_time: "Limited time offer!"
+#    sale_new_heroes: "New heroes!"
+#    sale_title: "Back to School Sale"
+#    sale_view_button: "Buy 1 year subscription for"
     stripe_description: "每月訂閱"
+#    stripe_description_year_sale: "1 Year Subscription (35% discount)"
     subscription_required_to_play: "您將需要訂閱來開啟這關."
     unlock_help_videos: "訂閱來解開所有鎖住得教學影片."
     personal_sub: "個人訂閱" # Accounts Subscription View below
@@ -443,7 +462,7 @@ module.exports = nativeDescription: "繁體中文", englishDescription: "Chinese
     managed_by: "管理"
     will_be_cancelled: "將被取消" 
     currently_free: "您目前有一個免費訂閱"
-    currently_free_until: "您目前有一個免費訂閱，直到"
+    currently_free_until: "您目前有一個免費訂閱，直到" # {changed}
     was_free_until: "您有過一個免費訂閱，直到"
     managed_subs: "管理訂閱"
     managed_subs_desc: "為其他玩家（學生、兒童等）添加訂閱。"
@@ -588,18 +607,18 @@ module.exports = nativeDescription: "繁體中文", englishDescription: "Chinese
     intro_2: "無需經驗！"
     free_title: "要多少錢？"
     cost_china: "CodeCombat的前5個關卡在中國是免費的，在這之後需花費每月9.99美元來訪問我們架設在中國專屬服務器上的140多個關卡。"
-    free_1: "有100多個覆蓋了所有理論的免費關卡。"
+    free_1: "有100多個覆蓋了所有理論的免費關卡。" # {change}
     free_2: "包月訂閱可以訪問視頻教程和額外的練習關卡。"
     teacher_subs_title: "教師可免費訂閱！"
     teacher_subs_1: "請聯繫"
     teacher_subs_2: "教師調查"
     teacher_subs_3: "建立您的訂閱。"
     sub_includes_title: "訂閱裡包含了什麼內容？"
-    sub_includes_1: "除了100＋個基礎關卡，學生包月訂閱還可以使用這些附加功能："
+    sub_includes_1: "除了100＋個基礎關卡，學生包月訂閱還可以使用這些附加功能：" # {change}
     sub_includes_2: "超過70個練習關卡"
     sub_includes_3: "視頻教學"
     sub_includes_4: "獨特的電子郵件支援"
-    sub_includes_5: "10个具有独特技能的新英雄"
+    sub_includes_5: "10个具有独特技能的新英雄" # {change}
     sub_includes_6: "每月享有3500額外寶石"
     sub_includes_7: "私人部落"
     monitor_progress_title: "我要如何查看學生的進度？"
@@ -618,7 +637,11 @@ module.exports = nativeDescription: "繁體中文", englishDescription: "Chinese
     material_china: "約40小時的遊戲時間和目前為止超過170個的訂閱關卡。"
     material_1: "大約25個小時的免費內容和額外的15個小時的訂閱內容。"
     concepts_title: "包括了哪些理論知識？"
+<<<<<<< HEAD
     how_much_title: "每月的訂閱費用是多少?"
+=======
+    how_much_title: "每月的訂閱費用是多少？"
+>>>>>>> codecombat/master
     how_much_1: ""
     how_much_2: "每月訂閱"
     how_much_3: "每月9.99美元，並可隨時取消訂閱。"
@@ -774,7 +797,7 @@ module.exports = nativeDescription: "繁體中文", englishDescription: "Chinese
     social_hipchat: "通過公共的HipChat與我們交流"
     contribute_to_the_project: "貢獻這專案"
 
-  Clans:
+  clans:
     clan: "部落"
     clans: "部落"
     new_name: "新部落的名字"
@@ -817,6 +840,7 @@ module.exports = nativeDescription: "繁體中文", englishDescription: "Chinese
     latest_achievement: "最新成就"
     playtime: "遊戲時間"
     last_played: "最後玩了"
+#    leagues_explanation: "Play in a league against other clan members in these multiplayer arena instances."
 
   classes:
     archmage_title: "大法師"
@@ -985,7 +1009,7 @@ module.exports = nativeDescription: "繁體中文", englishDescription: "Chinese
     diplomat_i18n_page_suffix: "翻譯我們的關卡, 或者從我們在 GitHub 上的頁面."
     diplomat_join_pref_github: "在"
     diplomat_github_url: " GitHub "
-    diplomat_join_suf_github: "找到您的語言文件 (中文的是: codecombat/app/locale/zh-HANT.coffee), 在線編輯它, 並且上傳一個 pull 請求. 另外, 勾選底下的條件來借由郵件獲得及時的國際化開發!"
+    diplomat_join_suf_github: "找到您的語言文件 (繁體中文的是: codecombat/app/locale/zh-HANT.coffee), 在線編輯它, 並且上傳一個 pull 請求. 另外, 勾選底下的條件來借由郵件獲得及時的國際化開發!"
     diplomat_subscribe_desc: "取得國際化開發和待翻譯關卡的郵件."
     ambassador_introduction: "這是個我們正在建立的社群, 您將是我們與世界的連接點. 我們在論壇, 郵件, 社群網路上和許多人交談並且幫助彼此熟悉遊戲以及互相學習. 如果您想要幫助其它人參與並且從中獲得許多樂趣, 以及樂於感受CodeCombat的脈搏和我們將前往的地方, 那麼這職業也許適合您."
     ambassador_attribute_1: "溝通技巧. 可以找到玩家正面臨的問題並且幫助他們解決. 另外, 保持與我們聯繫玩家們討論的, 喜愛的, 厭惡的以及想要的!"
@@ -1006,6 +1030,7 @@ module.exports = nativeDescription: "繁體中文", englishDescription: "Chinese
     my_matches: "我的對手"
     simulate: "模擬"
     simulation_explanation: "通過模擬遊戲，您可以使您的遊戲更快得到評分!"
+#    simulation_explanation_leagues: "You will mainly help simulate games for allied players in your clans and courses."
     simulate_games: "模擬遊戲!"
     simulate_all: "重置並模擬遊戲"
     games_simulated_by: "您模擬過的次數:"
@@ -1056,6 +1081,7 @@ module.exports = nativeDescription: "繁體中文", englishDescription: "Chinese
     tournament_blurb_blog: "我們的部落格"
     rules: "規則"
     winners: "贏家"
+#    league: "League"
 
   user:
     stats: "統計"
@@ -1096,6 +1122,7 @@ module.exports = nativeDescription: "繁體中文", englishDescription: "Chinese
     no_recent_games: "在過去兩個星期沒有玩過遊戲。"
     payments: "付款"
     purchased: "已購買"
+#    sale: "Sale"
     subscription: "訂閱"
     invoices: "收據"
     service_apple: "設備: Apple"
@@ -1138,15 +1165,15 @@ module.exports = nativeDescription: "繁體中文", englishDescription: "Chinese
     unknown: "未知錯誤."
 
   resources:
-    sessions: "會談"
-    your_sessions: "您的會談"
+    sessions: "會話"
+    your_sessions: "您的會話"
     level: "等級"
     social_network_apis: "社群網路 APIs"
     facebook_status: "Facebook 狀態"
     facebook_friends: "Facebook 朋友"
-    facebook_friend_sessions: "Facebook 朋友會談"
-    gplus_friends: "G+ 朋友"
-    gplus_friend_sessions: "G+ 朋友會談"
+    facebook_friend_sessions: "Facebook 朋友會話"
+    gplus_friends: "Google+ 朋友"
+    gplus_friend_sessions: "Google+ 朋友會話"
     leaderboard: "排行榜"
     user_schema: "用戶模式"
     user_profile: "用戶信息"
@@ -1160,8 +1187,8 @@ module.exports = nativeDescription: "繁體中文", englishDescription: "Chinese
     components: "組建"
     thang: "物品"
     thangs: "物品"
-    level_session: "您的會談"
-    opponent_session: "敵人會談"
+    level_session: "您的會話"
+    opponent_session: "對手會話"
     article: "文章"
     user_names: "用戶名稱"
     thang_names: "物品名稱"
@@ -1172,7 +1199,7 @@ module.exports = nativeDescription: "繁體中文", englishDescription: "Chinese
     sprite_sheet: "貼圖集"
     employers: "員工"
     candidates: "候選人"
-    candidate_sessions: "候選人會談"
+    candidate_sessions: "候選人會話"
     user_remark: "用戶備註"
     user_remarks: "用戶備註"
     versions: "版本"
@@ -1198,12 +1225,18 @@ module.exports = nativeDescription: "繁體中文", englishDescription: "Chinese
     boolean_logic: "布爾邏輯"
     break_statements: "Break語句"
     classes: "類"
+<<<<<<< HEAD
+=======
+#    continue_statements: "Continue Statements"
+>>>>>>> codecombat/master
     for_loops: "For循環"
     functions: "函數"
+#    graphics: "Graphics"
     if_statements: "If語句"
     input_handling: "輸入處理"
     math_operations: "數學運算"
     object_literals: "對象常量"
+#    parameters: "Parameters"
     strings: "字符串"
     variables: "變量"
     vectors: "向量"
